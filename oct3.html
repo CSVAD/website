@@ -1,0 +1,119 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>CSVAD MAT 594X | CMPSC 291I </title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-40">
+    <div class="inner">
+      <h3 class="masthead-brand">CSVAD</h3>
+         <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link active" href="index.html">Syllabus</a>
+          <!--<a class="nav-link" href="#">Readings</a>-->
+          <a class="nav-link" href="code_of_conduct.html">Code of Conduct</a>
+          <a class="nav-link" href="https://github.com/CSVAD">Class Github</a>
+          <!--<a class="nav-link" href="#">Resources</a>-->
+        </nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+<h4>October 3rd</h4>
+<ul>
+<li><h5>Reading Discussion</h5>
+<p>10 PRINT CHR$(205.5+RND(1)); : GOTO 10-- a collaboratively written book that examines a single line of BASIC code for the Commodore 64, as a means to consider the phenomenon of creative computing and the way computer programs exist in culture. <a href="https://10print.org/">full PDF</a></p>
+<p>In Groups of 3, discuss your reactions to the week's reading (optionally using the following prompts:)</p>
+<p>What struck you about the alignment between computational forms of repetition and approaches taken in art, design, or craft?</p>
+<p>What are the aesethetic opportunities of repetitive designs? What are the potential limitations?</p></li>
+<p>What changes when we rely on computational methods to produce repetition in visual art and design, versus when we do it by hand?</p></li>
+
+<p>Follow with a joint group discussion.</p>
+
+ <li><h5>Computational Repetition in Processing Part 2</h5></li>
+<ul>
+  <li> <h6>Creating rhythm and varation in the grid</h6></li>
+  <p>Creating a simple trechet tiling using transformations, loops, and basic shape primitives:<a href= "https://github.com/CSVAD/codeexamples/tree/master/week2/truchet_tiling_1">Example 1</a></p>
+  <p>Modifying the rhythm of the tiling using arrays:</br><a href= "https://github.com/CSVAD/codeexamples/tree/master/week2/truchet_tiling_2">Example 1</a></br><a href= "https://github.com/CSVAD/codeexamples/tree/master/week2/truchet_tiling_3">Example 2</a></p>
+
+  <p>Reference:</br>
+  <a href= "https://processing.org/tutorials/transform2d/">Moving the grid in Processing</a><br>
+  <a href="https://www.youtube.com/watch?v=o9sgjuh-CBM">Daniel Shiffman's explanation of processing transformations</a>
+  </p>
+
+  </li>
+
+   <li><h6>In class experimentation</h6>
+    <p>Take 10 minutes to experiment with the structure and parameters of the truchet tiling examples. Create 2 variations that produce 2 new patterns.</p>
+   </li>
+
+
+ <li><h6>Shape Import</h6>
+  <p>Importing externally-created graphics into processing:</br><a href= "https://github.com/CSVAD/codeexamples/tree/master/week2/pshape_tiling">Example 1</a>
+  </br><a href= "https://github.com/CSVAD/codeexamples/tree/master/week2/butterfly">Example 2 (Symmetry)</a></p>
+  <p>Reference:</br>
+  <a href = "https://processing.org/reference/loadShape_.html">Load Shape in Processing</a>
+</p>
+  </li>
+
+  <li><h6>Recursion</h6>
+  <p>Recursion with a seed tiling:</br><a href= "https://github.com/CSVAD/codeexamples/tree/master/week2/pshape_tiling">Example 1</a>
+  </br><a href= "https://github.com/CSVAD/codeexamples/tree/master/week2/rectalinear_fractal">Rectalinear Fractal</a></p>
+  <p>Additional Reference:</br>
+  <a href = "https://natureofcode.com/book/chapter-8-fractals/">Nature of Code: Fractals</a></br>
+  <a href = "http://formandcode.com/code-examples/repeat-recursive-tree">Form and Code: Recursive Tree</a></br>
+  <a href="https://processing.org/examples/recursion.html">Recursion basics in Processing</a>
+</p>
+  </li>
+</ul>
+</ul>
+
+
+<h5>Assignments</h5>
+<ul class="list-unstyled">
+ <li><h5>Code Assignment: Create a repeating Wallpaper.</h5>
+  <p>Using Processing, create a program that generates a wallpaper pattern. You may choose to vary one of the example sketches, or write an entirely new program. </p>
+  <p>Your only constraint is that your design must have some form of repetition including symmetrical repetition, a grid structure, or self-similarity (recursion).</p>
+  <p>You can use iteration or recursion (or a combination of the two), and your pattern can incoprporate Processing shape primitives, or import bitmap or vector designs.</p>
+  <p>Export 3 screenshots of your pattern at 3 different scales/ resolutions: ie if you are using a grid, do a 10x10 grid, a 20 x 20 grid, and a 100 x 100 grid.</p>
+  <p>After creating your wallpaper, write a 1 paragraph description of how you arrived at the final pattern- what choices you made about the structure of the design, etc.</p>
+<p>Upload your Processing code and screenshots of your three different wallpaper resolutions to your github repository in the projects/week2 directory. Also upload a text or markdown document with your 1 paragraph description. Please upload this material by 6:00 PM Monday evening. We will review the wallpapers in class on Tuesday October 8th.</p>
+</ul>
+
+ </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
